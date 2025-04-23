@@ -1,0 +1,33 @@
+.maingrid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(4,auto);
+    
+     gap: 30px;
+    }
+    .maingrid div{
+        background-color: blue;
+        border: 2px solid black;
+    }
+    
+    @media screen and (min-width:450px) and (max-width:750px){
+        .maingrid{
+            grid-template-columns: repeat(2,auto);
+        }
+        
+    }
+    
+    @media screen and (max-width:449px){
+        .maingrid{
+    
+            grid-template-columns: repeat(1,auto);
+        }
+    
+    }
+       
+    
+    
+    
+    
+        
+    
