@@ -1,0 +1,84 @@
+.h{
+   
+}
+
+
+
+.parent{
+
+    background-color: grey;
+    display: flex;
+   padding: 60px;
+text-align: center;
+text-align: center;
+font-family: "Special Gothic Expanded One", sans-serif;
+
+
+}
+
+
+
+
+.container ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    text-align: center;
+    margin-left: 200px;
+    font-family: "Bungee Spice", sans-serif;
+    
+}
+
+.gadget {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+ .gadget2{
+    margin-left: 50px;
+    
+ }
+
+ .gadget3{
+    margin-left: 50px;
+    
+ }
+
+
+
+ .gadget4{
+    margin-left: 50px;
+    
+ }
+
+ .bottom{
+   display: flex;
+   margin-top: 80px;
+   text-align: center;
+ }
+ .bottom div{
+   text-align: center;
+   margin-left: 50px;
+   gap: 80px;
+ }
+
+.card{
+   display: flex;
+   gap: 30px;
+   margin-top: 50px;
+}
+
+.card div{
+   border: 5px solid;
+   text-align: center;
+   padding: 20px;
+   margin-left: 60px;
+   width: 700px;
+   height: 170px;
+   background-color:aquamarine;
+}
+.slider{
+   margin-top: 50px;
+   background-color:lightcyan;
+}
