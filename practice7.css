@@ -1,0 +1,41 @@
+body{
+    background-color: greenyellow;
+}
+.upper{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(2,400px);
+    .d1{
+  margin-top: px;
+    }
+    .d2{
+        background-color: green;
+        margin-top: 5px;
+        text-align: center ;
+        h3{
+            margin-top: 0%;
+            background-color: rgb(124, 190, 24);
+            padding: 30px;
+        }
+        
+        }
+        .d3{
+            background-color: green;
+            text-align: center;
+            .i{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .i2{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .i3{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+    }
+}
